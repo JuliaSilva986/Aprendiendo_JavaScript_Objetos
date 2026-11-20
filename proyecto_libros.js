@@ -26,4 +26,4 @@ for (let i=0; i<numeroLibros; i++){
     console.log(Libros[i])
 }
 
-console.log(Libros[0].mostrarInformacion())
+Libros[0].mostrarInformacion()
