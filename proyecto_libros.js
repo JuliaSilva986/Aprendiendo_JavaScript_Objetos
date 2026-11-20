@@ -12,7 +12,7 @@ class Libro {
     }
 }
 
-let numeroLibros=prompt("Cuantos libros vas a registrar?");
+let numeroLibros=Number(prompt("Cuantos libros vas a registrar?"));
 let Libros=[]
 for (let i=0; i<numeroLibros; i++){
     let titulo=prompt("¿Cual es el titulo del libro?");
